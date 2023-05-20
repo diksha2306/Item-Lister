@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="div1">
+                <h1 class="animated">ITEM LISTER</h1>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    <div class="outer">
+        <div class="title">Add Items</div><br>
+        <div class="searchbox">
+           <div class="title">Search Here</div><br>
+            <input type="text" class="form" id="filter" placeholder="Search here...">
+        </div>
+        <form id="addform">
+        <input type="text" class="form" id="item">
+        <input type="submit" class="btn">
+        </form><br><br>
+        <div class="title"><center>Items</center></div><br>
+        <ul id="items" class="list_grp">
+            <li class="list_grp_item">Item1<button class="btn2">X</button></li><br>
+            <li class="list_grp_item">Item2<button class="btn2">X</button></li><br>
+            <li class="list_grp_item">Item3<button class="btn2">X</button></li><br>
+            <li class="list_grp_item">Item4<button class="btn2">X</button></li><br>
+        </ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
